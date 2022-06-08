@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <div id=Home>
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Titel</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+      <link rel ="stylesheet" href ="./Assets/css/Main.css">    
+    </head>
+  </div>
+
+  <body>
+    <div id=Navbar>
+      <div class="menu">
+        <a href="#home" class="nav-links">Home</a>
+        <a href="#About" class="nav-links">About</a>        
+        <a href="#Experience" class="nav-links">Experience</a>
+        <a href="#Education" class="nav-links">Education</a>
+        <a href="#Values" class="nav-links">Values</a>
+        <a href="#contact" class="nav-links">Contact</a>
+      </div>
+    </div>
+
+    <div id=Hero_Image>
+      <center>
+        <img style="width: 29%; border-radius: 50%;"src="./Assets/images/Duck_Bananna.png"
+      </center>
+      <h1><center>Eben van der Merwe</center></h1>    
+    </div>
+    
+    <hr>
+    
+    <div id=About>
+      <h2><center><u>About</u></center></h2>       
+     <center>
+     <p>I was born in Bloemfontein and we moved down to Cape Town when I was 4 years old</p>
+     <p>Since I was very young, I wanted to know how things work and that eventually led to me wanting to know more about computers.</p>    
+     <p>I would like to to study mechatronic engineering. </p>
+    </center>
+    </div>
+    
+    <hr>
+
+    <div id=Experience>
+      <center>
+       <h2><center><u>Experience</u></center></h2>
+       <p></p>
+       <p></p>
+      </center>
+    </div>
+
+    <hr>
+
+    <div id=Education>
+      <center>
+       <h2><center><u>Education</u></center></h2>
+       <p>I am currently working on My coding skills in delphi</p>
+       <p>I have minimal experience in Python and HTML</p>
+      </center>
+    </div>
+
+    <hr>
+
+    <div id=Values>
+    <center>
+      <h2><center><u>Values</u></center></h2>
+      <p>My values are </p>
+    </center>
+    </div>
+
+    <hr>
+    
+    <div class="container" id="contact">
+      <div class="row" style="margin-top:5%; margin-bottom:2%">
+        <h1>Contact</h1>
+      </div>
+
+      <form method="post" name="contact_form" action="javascript:;" onsubmit="contact()">
+        <div class="row">
+          <div class="col-6 col-12-mobilep" style="margin-bottom: 2%;">
+            <input class="form-control" type="text" id="name" placeholder="Name" />
+          </div>
+          <div class="col-6 col-12-mobilep" style="margin-bottom: 2%;">
+            <input class="form-control" type="email" id="email" placeholder="Email" />
+          </div>
+          <div class="col-12" style="margin-bottom: 2%;">
+            <input class="form-control" type="text" id="subject" value="" placeholder="Subject" />
+          </div>
+          <div class="col-12" style="margin-bottom: 2%;">
+            <textarea class="form-control" id="message" placeholder="Message" rows="6"></textarea>
+          </div>
+          <div class="col-12" style="margin-bottom: 2%;">
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/contact.js"></script>
+  
+  </body>
+</html>
+
